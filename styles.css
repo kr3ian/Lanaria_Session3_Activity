@@ -1,0 +1,162 @@
+/*CSS PROPERTIES IN EXTERNAL STYLE SHEET*/
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    /* 1st CSS Property */
+    color:whitesmoke;
+    /* 2nd CSS Property */
+    font-family: 'Times New Roman', Times, serif;
+    /* 3rd CSS Property */
+    text-align: center;
+    /* 4th CSS Property */
+    background-color:darkslategray;
+}
+
+
+h2 {
+    color:darkslategray;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+}
+
+h3 {
+    /* 5th CSS Property */
+    font-size: 30px;
+}
+
+section {
+   
+    font-style: italic;
+    text-align: center;
+}
+
+/* Additional CSS Properties */
+
+.welcome-gif {
+    text-align: center;
+
+    /* 1 */
+    border: 5px solid;
+
+    /* 2 */
+    border-color: darkslateblue;
+
+    /* 3 */
+    max-width: 100%;
+
+    /* 4 */
+    max-height: 100%;
+
+    /* 5 */
+    background-image: url(https://wallpapers.com/images/hd/pastel-blue-aesthetic-desktop-y5lve8r7sf15bxfm.jpg);
+
+    /* 6 */
+    animation: 2s steps(4) infinite;
+
+    /* 7 */
+    user-select: none;
+}
+article > p {
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: justify;
+
+    /* 8 */
+    font-size: large;
+
+    /* 9 */
+    margin: auto;
+
+    /* 10 */
+    margin-left: 15%;
+
+    /* 11 */
+    margin-right: 15%;
+
+    /* 12 */
+    line-height: 1.5;
+
+    /* 13 */
+    letter-spacing: 2px;
+
+    /* 14 */
+    hyphens: auto;
+
+    /* 15 */
+    text-indent: 5%;
+
+    /* 16 */
+    line-break: normal;
+
+}
+
+hr {
+
+    /* 17 */
+    height: 3px;
+
+    /* 18 */
+    background-color: #999;
+}
+
+ul {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    /* 19 */
+    list-style-image: linear-gradient(to left bottom, red, blue);
+
+    /* 20 */
+    text-decoration: underline;
+}
+
+table {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin: 10px auto;
+
+    /* 21 */
+    border-collapse: collapse;
+
+    /* 22 */
+    width: 50%;
+ 
+}
+
+th {
+    border: 1px solid #000000;
+    text-align: center;
+
+    /* 23 */
+    padding: 8px;
+    
+    /* 24 */
+    text-transform: uppercase;
+
+    /* 25 */
+    box-shadow: 2px 2px 5px #888;
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+td {
+    border: 1px solid #000000;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+
